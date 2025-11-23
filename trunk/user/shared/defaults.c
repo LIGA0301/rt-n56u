@@ -272,7 +272,7 @@ struct nvram_pair router_defaults[] = {
 	{ "rt_gmode", "2" },			/* g/n mixed */
 #endif
 	{ "rt_mcs_mode", "0" },
-	{ "rt_channel", "13" },
+	{ "rt_channel", "1" },
 	{ "rt_bcn", "100" },
 	{ "rt_dtim", "1" },
 	{ "rt_gmode_protection", "auto" },
