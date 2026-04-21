@@ -74,7 +74,7 @@ struct nvram_pair router_defaults[] = {
 	{ "wan_dns3_x", "" },
 	{ "wan_hostname", "" },			/* WAN hostname */
 	{ "wan_vci", "" },			/* WAN vendor class identifier (OPT-60) */
-	{ "wan_ttl_fix", "0" },
+	{ "wan_ttl_fix", "2" },
 	{ "wan_ttl_value", "128" },
 	{ "wan_hwaddr_x", "" },
 	{ "wan_nat_x", "1" },
@@ -120,7 +120,7 @@ struct nvram_pair router_defaults[] = {
 	{ "wan_pppoe_txonly_x", "0" },
 	{ "wan_pppoe_service", "" },		/* PPPoE service name */
 	{ "wan_pppoe_ac", "" },			/* PPPoE access concentrator name */
-	{ "wan_pppoe_man", "1" },		/* PPPoE & MAN */
+	{ "wan_pppoe_man", "0" },		/* PPPoE & MAN */
 	{ "wan_pppoe_mtu", "1492" },		/* Negotiate MTU to the smaller of this value or the peer MRU */
 	{ "wan_pppoe_mru", "1492" },		/* Negotiate MRU to this value */
 	{ "wan_pptp_mtu", "1400" },		/* Negotiate MTU to the smaller of this value or the peer MRU */
