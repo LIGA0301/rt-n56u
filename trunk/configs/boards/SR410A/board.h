@@ -1,6 +1,4 @@
-/* YOUHUA SR410A */
-
-#define BOARD_PID		"SR410A"
+#define BOARD_PID     "SR410A"
 #define BOARD_NAME		"SR410A"
 #define BOARD_DESC		"YOUHUA SR410A Wireless Router"
 #define BOARD_VENDOR_NAME	"Youhua Technology"
@@ -8,9 +6,8 @@
 #define BOARD_MODEL_URL		"http://www.youhuatech.com/"
 #define BOARD_BOOT_TIME		30
 #define BOARD_FLASH_TIME	120
-#define BOARD_GPIO_BTN_FN1	18	//WiFi
 #define BOARD_GPIO_BTN_RESET	3
-#define BOARD_GPIO_BTN_WPS	12
+#undef  BOARD_GPIO_BTN_WPS
 #undef  BOARD_GPIO_LED_ALL
 #undef  BOARD_GPIO_LED_WIFI
 #undef  BOARD_GPIO_LED_SW2G
