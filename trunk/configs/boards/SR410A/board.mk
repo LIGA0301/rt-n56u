@@ -4,5 +4,5 @@
 # SR410A  # YOUHUA SR410A  # MT7621  #
 ##################################################################
 
-CFLAGS += -DBOARD_SR410A
+CFLAGS += -DBOARD_XS-SR410A
 BOARD_NUM_USB_PORTS=0
