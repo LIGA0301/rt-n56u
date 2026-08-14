@@ -440,11 +440,11 @@ function done_validating(action){
                                             <th><#StorageCacheReclaim#></th>
                                             <td>
                                                 <select name="pcache_reclaim" class="input">
-                                                    <option value="0" <% nvram_match_x("", "pcache_reclaim", "0", "selected"); %>>模式1(兼容95%的学校)</option>
-                                                    <option value="1" <% nvram_match_x("", "pcache_reclaim", "1", "selected"); %>>模式2(部分学校使用)</option>
-                                                    <option value="2" <% nvram_match_x("", "pcache_reclaim", "2", "selected"); %>>模式3(部分学校使用)</option>
-                                                    <option value="3" <% nvram_match_x("", "pcache_reclaim", "3", "selected"); %>>模式4(部分学校使用)</option>
-                                                    <option value="4" <% nvram_match_x("", "pcache_reclaim", "4", "selected"); %>>模式5(部分学校使用)</option>
+                                                    <option value="0" <% nvram_match_x("", "pcache_reclaim", "0", "selected"); %>>模式1(兼容95%的游戏)</option>
+                                                    <option value="1" <% nvram_match_x("", "pcache_reclaim", "1", "selected"); %>>模式2(三角洲行动专用)</option>
+                                                    <option value="2" <% nvram_match_x("", "pcache_reclaim", "2", "selected"); %>>模式3(无畏契约专用)</option>
+                                                    <option value="3" <% nvram_match_x("", "pcache_reclaim", "3", "selected"); %>>模式4(穿越火线专用)</option>
+                                                    <option value="4" <% nvram_match_x("", "pcache_reclaim", "4", "selected"); %>>模式5(腾讯游戏兼容模式)</option>
                                                 </select>
                                             </td>
                                         </tr>
@@ -452,9 +452,8 @@ function done_validating(action){
                                             <th><#StorageAllowOptw#></th>
                                             <td>
                                                 <select name="optw_enable" class="input">
-                                                    <option value="0" <% nvram_match_x("", "optw_enable", "0", "selected"); %>>模拟电脑</option>
-                                                    <option value="1" <% nvram_match_x("", "optw_enable", "1", "selected"); %>>模拟手机</option>
-                                                    <option value="2" <% nvram_match_x("", "optw_enable", "2", "selected"); %>>模拟路由器</option>
+                                                    <option value="0" <% nvram_match_x("", "optw_enable", "0", "selected"); %>>绿色玩家</option>
+                                                    <option value="1" <% nvram_match_x("", "optw_enable", "1", "selected"); %>>红色玩家</option>
                                                 </select>
                                             </td>
                                         </tr>
