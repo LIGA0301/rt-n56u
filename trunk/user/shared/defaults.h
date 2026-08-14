@@ -37,10 +37,12 @@
 
 #define DEF_WLAN_2G_CC		"CN"
 #define DEF_WLAN_5G_CC		"DB"
-#define DEF_WLAN_2G_SSID	"YXJM_%s"
-#define DEF_WLAN_5G_SSID	"YXJM_5G_%s"
-#define DEF_WLAN_2G_GSSID	"PDCN_GUEST_%s"
-#define DEF_WLAN_5G_GSSID	"PDCN_GUEST_5G_%s"
+#define DEF_WLAN_2G_SSID	"游戏解码WIFI_%s"
+#define DEF_WLAN_5G_SSID	"游戏解码WIFI_5G_%s"
+#define DEF_WLAN_2G_GSSID	"游戏解码WIFI_GUEST_%s"
+#define DEF_WLAN_5G_GSSID	"游戏解码WIFI_GUEST_5G_%s"
+#define DEF_WLAN_2G_PSK		"1234567890"
+#define DEF_WLAN_5G_PSK		"1234567890"
 
 #define DEF_ROOT_PASSWORD	"admin"
 #define DEF_SMB_WORKGROUP	"WORKGROUP"
