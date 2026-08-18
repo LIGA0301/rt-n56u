@@ -9,7 +9,7 @@ include $(ROOTDIR)/user/shared/boards.mk
 PPROJECT_HOME_URL="https:\/\/www.baidu.com\/"
 PROJECT_HOME_URL_MOD="https:\/\/mp.weixin.qq.com\/s\/mjnIWqu_ocYamwm2NDn7Dg\/"
 
-LABEL_COPYRIGHT_TEXT='© GSWIF校园网路由器 <a href="https:\/\/www.baidu.com" target="blank">访问百度<\/a> \& 版本：1024 \& by <a href="https:\/\/mp.weixin.qq.com\/s\/mjnIWqu_ocYamwm2NDn7Dg" target="blank">诚招代理<\/a>'
+LABEL_COPYRIGHT_TEXT='© GSWIFI校园网路由器 <a href="https:\/\/www.baidu.com" target="blank">访问百度<\/a> \& 版本:1024 \&  <a href="https:\/\/mp.weixin.qq.com\/s\/mjnIWqu_ocYamwm2NDn7Dg" target="blank">诚招代理<\/a>'
 
 BOARD_PATTERN=s/ZVMODELVZ/$(CONFIG_FIRMWARE_PRODUCT_ID)/g
 COPYR_PATTERN=s/ZVCOPYRVZ/$(LABEL_COPYRIGHT_TEXT)/g
