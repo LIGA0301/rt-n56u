@@ -447,7 +447,7 @@ if (found_app_shadowsocks()){
 } else menuL2_title.push("");
 
 if (found_app_mentohust()){
-	menuL2_title.push("mentohust");
+	menuL2_title.push("锐捷认证");
 } else menuL2_title.push("");
 
 
