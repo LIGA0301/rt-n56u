@@ -129,8 +129,9 @@ void prep_exit()
 }
 
 
-void sigwinch_handler()
+void sigwinch_handler(int sig)
 {
+    (void)sig;
 	struct winsize winsize;
 
 	if(ioctl(1, TIOCGWINSZ, &winsize) == -1) {
@@ -143,8 +144,9 @@ void sigwinch_handler()
 }
 
 
-void sigalrm_handler()
+void sigalrm_handler(int sig)
 {
+    (void)sig;
 	rotate = (rotate + 1) % 4;
 }
 
