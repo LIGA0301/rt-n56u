@@ -4,7 +4,7 @@
 #define BOARD_VENDOR_NAME	"Beijing Xiaomi Technology Co., Ltd."
 #define BOARD_VENDOR_URL	"http://www.mi.com/"
 #define BOARD_MODEL_URL		"http://www.mi.com/"
-#define BOARD_BOOT_TIME		30
+#define BOARD_BOOT_TIME		20
 #define BOARD_FLASH_TIME	120
 #define BOARD_GPIO_BTN_RESET	7
 #undef  BOARD_GPIO_BTN_WPS
@@ -28,5 +28,3 @@
 #define BOARD_NUM_ETH_EPHY	4
 #define BOARD_HAS_EPHY_L1000	1
 #define BOARD_HAS_EPHY_W1000	1
-#define BOARD_NUM_UPHY_USB3	1
-#define BOARD_USB_PORT_SWAP	1
