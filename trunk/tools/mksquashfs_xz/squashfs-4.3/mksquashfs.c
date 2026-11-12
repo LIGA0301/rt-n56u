@@ -398,9 +398,8 @@ void restorefs()
 }
 
 
-void sighandler(int sig)
+void sighandler()
 {
-    (void)sig;
     EXIT_MKSQUASHFS();
 }
 
