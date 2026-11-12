@@ -52,9 +52,8 @@ pthread_t progress_thread;
 pthread_mutex_t progress_mutex = PTHREAD_MUTEX_INITIALIZER;
 
 
-static void sigwinch_handler(int sig)
+static void sigwinch_handler()
 {
-    (void)sig;
 	struct winsize winsize;
 
 	if(ioctl(1, TIOCGWINSZ, &winsize) == -1) {
@@ -67,9 +66,8 @@ static void sigwinch_handler(int sig)
 }
 
 
-static void sigalrm_handler(int sig)
+static void sigalrm_handler()
 {
-    (void)sig;
 	rotate = (rotate + 1) % 4;
 }
 
